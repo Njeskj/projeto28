@@ -1,0 +1,9 @@
+<?php
+include('includes/head.php');
+include('includes/nav.php');
+include('includes/header.php');
+include('includes/sobre.php');
+include('includes/jogos.php');
+include('includes/contato.php');
+include('includes/footer.php');
+?>

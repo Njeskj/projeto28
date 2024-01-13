@@ -1,0 +1,36 @@
+#jogos {
+    margin-bottom: 15px;
+}
+
+.jogos-bg {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 5px solid brown;
+    border-bottom: 5px solid brown;
+    border-radius: 25%;
+}
+
+/* Classe para as imagens do grid */
+.img-fluid {
+    width: 100%;
+    height: auto;
+    border: 4px solid transparent; /* Adiciona uma borda transparente inicial */
+    border-radius: 8px; /* Adiciona uma borda arredondada */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil */
+    transition: box-shadow 0.3s ease-in-out, opacity 0.3s ease-in-out; /* Adiciona uma transição suave */
+    transform: scale(1.01);
+}
+
+/* Efeito de sombra, opacidade e filtro ao passar o mouse sobre a imagem */
+.img-fluid:hover {
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2); /* Aumenta a intensidade da sombra ao passar o mouse */
+    opacity: 0.8; /* Reduz a opacidade ao passar o mouse para um efeito mais sutil */
+    filter: brightness(80%); /* Escurece a imagem ao passar o mouse */
+    transform-origin: center center;
+}
+
+.titulo-jogo {
+    text-decoration: underline;
+    text-decoration-color: brown;
+    text-decoration-style: dotted;
+}

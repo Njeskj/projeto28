@@ -1,0 +1,12 @@
+/* Adicione outras regras de estilo conforme necessário */
+
+.imagem-nav {
+    width: 50px;
+    height: auto;
+}
+
+.navbar {
+    border-bottom: 5px solid;
+    color: brown;
+    border-radius: 10px;
+}

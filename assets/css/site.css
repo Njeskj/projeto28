@@ -1,0 +1,41 @@
+
+
+
+/* Estilo para a seção sobre */
+.texto-sobre {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px; /* Ajuste o espaçamento interno conforme necessário */
+}
+
+/* Estilo para o contêiner do texto */
+.texto-sobre {
+    max-width: 1000px; /* Define uma largura máxima para o texto */
+    margin: 0 auto; /* Centraliza o contêiner do texto */
+}
+
+#contact {
+    margin-top: 50px;
+}
+
+/* Estilização do Botão "Voltar ao Topo" */
+#back-to-top-btn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: brown; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    border: none;
+    border-radius: 15%;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#back-to-top-btn:hover {
+    background-color: brown; /* Cor de fundo do botão ao passar o mouse */
+    border: 1px solid white;
+}
